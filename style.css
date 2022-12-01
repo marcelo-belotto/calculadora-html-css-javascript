@@ -1,0 +1,60 @@
+
+main {
+  width: auto;
+}
+
+div#calculadora {
+  width: 255px;
+  margin: 120px;
+  padding: 10px;
+  display: block;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  background: linear-gradient(gray, black,gray,black);
+  box-shadow: 10px 10px 15px 15px gray;
+}
+
+
+div#calculadora #telaResultado {
+  box-sizing: border-box;
+  font-size: 30px;
+  width: 100%;
+  height: 50px;
+  margin: 0px 0px 10px 0px;
+}
+
+input[type="button"] {
+  font-size: 30px;
+  font-weight: bold;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  margin: 0px;
+  padding: 0px;
+  border-style: none;
+  background: gray;
+  transition: 100ms;
+}
+
+input:active {
+  background: #bbbbb0;
+}
+
+#botaoMais:active,
+#botaoMenos:active,
+#botaoMult:active,
+#botaoIgual:active,
+#botaoDivisao:active,
+#botaoClear:active {
+  background: #f5ff0f;
+}
+
+#botaoMais,
+#botaoMenos,
+#botaoMult,
+#botaoIgual,
+#botaoDivisao,
+#botaoClear {
+  transition: 100ms;
+  background: orange;
+}
